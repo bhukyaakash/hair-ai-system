@@ -1,8 +1,3 @@
-# Datasets
+# Kaggle datasets directory
 
-Use Kaggle datasets for face shape, hairstyle, and scalp/hair health tasks.
-
-Example:
-```bash
-kaggle datasets download -d <dataset-slug>
-```
+Datasets will be downloaded here. See README.md for instructions.
