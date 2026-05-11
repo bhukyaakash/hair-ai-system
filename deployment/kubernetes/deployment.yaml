@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hair-ai-backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hair-ai-backend
+  template:
+    metadata:
+      labels:
+        app: hair-ai-backend
+    spec:
+      containers:
+        - name: backend
+          image: hair-ai-backend:latest
+          ports:
+            - containerPort: 8000
