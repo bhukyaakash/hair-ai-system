@@ -1,0 +1,6 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: hair-ai-config
+data:
+  APP_NAME: Hair AI System

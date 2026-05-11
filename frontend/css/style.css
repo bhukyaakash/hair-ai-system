@@ -1,0 +1,3 @@
+body { margin: 0; font-family: Arial, sans-serif; background: var(--bg); color: var(--text); }
+header { padding: 1rem; background: var(--accent); color: #fff; }
+main { padding: 1rem; display: grid; gap: 1rem; grid-template-columns: repeat(2, minmax(0, 1fr)); }
